@@ -1,0 +1,7 @@
+{
+  "name": "chareice-skills",
+  "description": "Claude Code skills by chareice for DevOps, E2E testing, OpenAPI generation, ClickHouse analysis, and branch cleanup",
+  "author": {
+    "name": "chareice"
+  }
+}
