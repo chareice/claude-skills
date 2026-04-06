@@ -1,0 +1,15 @@
+openapi: 3.0.3
+info:
+  title: __PROJECT_TITLE__ API
+  description: __PROJECT_DESCRIPTION__
+  version: 1.0.0
+
+servers:
+  - url: /api
+    description: API Server
+
+components:
+  schemas: {}
+  parameters: {}
+
+paths: {}

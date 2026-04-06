@@ -1,0 +1,28 @@
+{
+  "name": "chareice-skills",
+  "owner": {
+    "name": "chareice"
+  },
+  "metadata": {
+    "description": "Claude Code skills by chareice for DevOps, testing, and productivity",
+    "version": "1.0.0"
+  },
+  "commands": [
+    "./commands/ch-memory-analysis.md",
+    "./commands/ch-slow-query-analysis.md",
+    "./commands/cleanup-branches.md"
+  ],
+  "plugins": [
+    {
+      "name": "chareice-skills",
+      "description": "DevOps, E2E testing, ClickHouse analysis, and API documentation tools",
+      "source": "./",
+      "strict": true,
+      "skills": [
+        "./skills/devops",
+        "./skills/e2e",
+        "./skills/openapi-generator"
+      ]
+    }
+  ]
+}
